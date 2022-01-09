@@ -9,6 +9,7 @@
 # October 22, 2021		Added conversion to Newtons and stall speed calculation
 # October 23, 2021		Added Cg, wing loading and wing load 
 #
+# This code is licensed under MIT license (see LICENSE.txt for details)
 
 	#-------------------------- Data Conversion Dictionaries ---------------------------#
 
