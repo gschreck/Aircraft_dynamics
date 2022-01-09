@@ -6,6 +6,8 @@
 # Interference & excrescence drag are approximated using a factor based on the aircraft type.
 # In this case = 1.15, which is slightly better than the general aviation factor of 1.2 - 1.3.
 #
+# This code is licensed under MIT license (see LICENSE.txt for details)
+#
 # Dec 12, 2021 		Initial code
 #
 
