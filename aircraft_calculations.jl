@@ -1,15 +1,17 @@
 #=
 
 	This file calculates various aircraft parameters
-		horizontal stabilizer coefficient						August 20, 2021 	
-		vertical stabilizer coefficient							September 11, 2021
-		initial unit conversion, AR, Sw and MAC functions		October 1, 2021
-		added AC calculations									October 7, 2021
+	horizontal stabilizer coefficient				August 20, 2021 	
+	vertical stabilizer coefficient					September 11, 2021
+	initial unit conversion, AR, Sw and MAC functions		October 1, 2021
+	added AC calculations						October 7, 2021
+
+	This code is licensed under MIT license (see LICENSE.txt for details)
 		
 =#
 
-using DataFrames, ArgParse, Printf				# add functions
-import XLSX										# add the Excel access routines
+using DataFrames, ArgParse, Printf					# add functions
+import XLSX								# add the Excel access routines
 
 # data structure for keeping track of variables
 mutable struct req_vars
@@ -19,7 +21,7 @@ mutable struct req_vars
 		stored::Int8
 	end
 	
-include("aircraft_dynamics.jl")					# basic routines for dynamics calculations
+include("aircraft_dynamics.jl")						# basic routines for dynamics calculations
 include("aircraft_drag.jl")						# basic drag calculations		
 
 #=  ###########################################################################################
