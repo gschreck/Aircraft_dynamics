@@ -15,7 +15,7 @@
 
 # convert arbitrary units to meters
 To_meters 	 = Dict("in" => 0.0254, "ft" => 0.3048, "yd" => 0.9144, "cm" => 0.01)	
-To_sq_meters 	 = Dict("in^2" => 0.00064516, "ft^2" => 0.092903, "yd^2" => 0.836127, "cm^2" => 0.0001)
+To_sq_meters = Dict("in^2" => 0.00064516, "ft^2" => 0.092903, "yd^2" => 0.836127, "cm^2" => 0.0001)
 To_N		 = Dict("kg" => 9.80665, "lbs" => 4.448221615)
 To_kg		 = Dict("lb" => 0.453592, "N" => 0.1019716213)
 To_kgm		 = Dict("in lb" => 0.01152125)
